@@ -6,7 +6,7 @@ res.status(200).json({
 projeto: "Projeto 2 - CI/CD com Deploy Automatizado",
 status: "online",
 provider: process.env.CLOUD_PROVIDER || "local",
-version: process.env.APP_VERSION || "1.0.0"
+version: process.env.APP_VERSION || "1.0.1"
 });
 });
 app.get("/health", (req, res) => {
